@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+</style>
+<body  class="body">
+    <div class="form">
+    <h2 class="h">Joining Form</h2>
+    <form action="file.txt" >
+        <label for="Name"><b>Name:</b></label>
+        <div>
+            <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        
+        <label for="Email"><b>Email:</b></label>
+        <div>
+            <input type="email" name="myEmail" id="Email">
+        </div>
+        <br>
+
+        <div><b>Gender:</b></div>
+
+        <label for="Gender"><b>Male:</b></label>
+        <div>
+            <input type="radio" name="myGender" id="Gender">
+        </div>
+
+        <label for="Gender"><b>Female:</b></label>
+        <div>
+            <input type="radio" name="myGender" id="Gender">
+        </div>
+        <br>
+
+        <label for="Date"><b>Date of joining:</b></label>
+        <div>
+            <input type="date" name="myDate" id="Date">
+        </div>
+        <br>
+        
+        <label for="Time"><b>Time:</b></label>
+        <div>
+            <input type="time" name="myTime" id="Time">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <br>
+
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+
+        <div>
+                <a href="web.html">HOME</a>
+        </div>
+    </form>
+</div>
+</body>
+
+<style>
+    .body{
+        background-color: rgb(17, 16, 16);
+    }
+
+
+    .h{
+        border: 10px;
+        border-color: red;
+    }
+
+    a{
+        border-style: solid;
+        border-color: black;
+        border-radius: 4px;
+        text-decoration: none;
+        padding: 2px;
+        background-color: rgb(234, 241, 241);
+        color: black;
+    }
+.form{
+    display:block;
+    align-items: center;
+    text-align: center;
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+</style>
+</html>
